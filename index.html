@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The portfolio of Justin Familaran, a software developer who builds thoughtful web experiences."
+    />
+    <title>Justin Familaran | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Justin Familaran home">
+        <span class="brand-mark" aria-hidden="true">JF</span>
+        <span>Justin Familaran</span>
+      </a>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a class="nav-contact" href="https://github.com/justdevelopment2592">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true"></span> Available for new opportunities</p>
+          <h1 id="hero-title">
+            I build digital products that feel
+            <span class="accent-text">clear and human.</span>
+          </h1>
+          <p class="hero-description">
+            I’m Justin, a software developer focused on building dependable,
+            thoughtful web experiences from idea to launch.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my work</a>
+            <a class="button button-secondary" href="https://github.com/justdevelopment2592">
+              Visit GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-card-header">
+              <span></span><span></span><span></span>
+            </div>
+            <pre><code><span class="code-muted">const</span> developer = {
+  name: <span class="code-string">"Justin"</span>,
+  craft: <span class="code-string">"Web experiences"</span>,
+  mindset: <span class="code-string">"Keep learning"</span>
+};</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" id="about" aria-labelledby="about-title">
+        <p class="section-label">A little about me</p>
+        <div class="intro-grid">
+          <h2 id="about-title">Turning complex ideas into approachable products.</h2>
+          <div>
+            <p>
+              I enjoy solving real problems with clean code, careful design, and
+              a healthy curiosity for how things work.
+            </p>
+            <p>
+              This portfolio is just getting started. New projects, experiments,
+              and notes from my development journey will be added here soon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Selected work</p>
+            <h2 id="work-title">Projects are on the way.</h2>
+          </div>
+          <p>I’m preparing a few case studies to share here.</p>
+        </div>
+
+        <article class="project-card">
+          <div class="project-number" aria-hidden="true">01</div>
+          <div class="project-copy">
+            <p class="project-type">Coming soon</p>
+            <h3>My next useful thing</h3>
+            <p>
+              A thoughtful project is taking shape. Follow along on GitHub to see
+              what I’m building and how it evolves.
+            </p>
+          </div>
+          <a href="https://github.com/justdevelopment2592">Follow the progress</a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed and built by Justin Familaran.</p>
+      <p>&copy; <span id="current-year"></span> All rights reserved.</p>
+    </footer>
+  </body>
+</html>
